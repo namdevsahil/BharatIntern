@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://ceotudent.com/wp-content/uploads/2020/05/netflix-poster.jpg');
+}
+
+/* Apply a background color and set font styles */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
+
+nav li {
+    font-size: 16px;
+    background: transparent;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e50914;
+}
+
+/* Main section styles */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    background: transparent
+}
